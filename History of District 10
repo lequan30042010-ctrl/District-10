@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>District 10: Echoes of Heritage & Chinese Legacy</title>
+  <style>
+    :root {
+      --primary-color: #8b0000; /* Deep Crimson */
+      --secondary-color: #d4af37; /* Historic Gold */
+      --dark-bg: #1a1a1a;
+      --light-bg: #fdfbf7;
+      --text-color: #333;
+    }
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--light-bg);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      border-bottom: 4px solid var(--secondary-color);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      letter-spacing: 1px;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-style: italic;
+      color: var(--secondary-color);
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+    .section-card {
+      background: white;
+      border-radius: 8px;
+      padding: 1.8rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      border-left: 5px solid var(--primary-color);
+    }
+    .section-card h2 {
+      color: var(--primary-color);
+      margin-top: 0;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--secondary-color);
+      color: var(--dark-bg);
+      padding: 0.2rem 0.6rem;
+      font-size: 0.85rem;
+      font-weight: bold;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+    }
+    .amenities-list {
+      list-style-type: square;
+      padding-left: 1.2rem;
+      color: #555;
+    }
+    .photo-placeholder {
+      width: 100%;
+      height: 200px;
+      background-color: #e9ecef;
+      border: 2px dashed #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      margin: 1rem 0;
+      border-radius: 6px;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: var(--dark-bg);
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>District 10 Travelog Companion</h1>
+    <p>A Journey Through Chinese Heritage, Historic Relics & Culinary Marvels</p>
+  </header>
+
+  <div class="container">
+
+    <!-- SECTION 1: CHINESE MEDICINE & HERITAGE -->
+    <div class="section-card">
+      <span class="badge">Body 1 Feature: Immigrant History</span>
+      <h2>1. Traditional Chinese Medicine & Herbal Street</h2>
+      <p><strong>Historical Context:</strong> The development of District 10 is deeply intertwined with the early migration of Chinese settlers moving outward from Chợ Lớn. They brought along centuries-old traditions of commerce, craftsmanship, and holistic healing.</p>
+      
+      <!-- Placeholder cho hình ảnh --><div class="photo-placeholder">[ Insert Image: Traditional Herbal Medicine Shop ]</div>
+
+      <h3>Visitor Features & Amenities:</h3>
+      <ul class="amenities-list">
+        <li><strong>Aromatherapy & Herbal Tastings:</strong> Inhale the rich, bitter-sweet aroma of traditional remedies wafting from family-run pharmacies. Sample authentic herbal teas formulated for longevity and vitality.</li>
+        <li><strong>Interactive Consultation:</strong> Experience traditional pulse-reading and customized herbal mixture blending by master practitioners.</li>
+        <li><strong>Heritage Architecture:</strong> Admire the classic shop-house aesthetics with antique wooden drawers storing hundreds of medicinal roots and minerals.</li>
+      </ul>
+    </div>
+
+    <!-- SECTION 2: HISTORICAL RELICS -->
+    <div class="section-card">
+      <span class="badge">Body 2 Feature: Historic Relics</span>
+      <h2>2. Chí Hòa Relic & Sacred Architecture</h2>
+      <p><strong>Historical Context:</strong> Serving as a silent sentinel to Saigon's transformation, the historic Chí Hòa area stands as an enduring witness to the city's heroic and complex past.</p>
+
+      <!-- Placeholder cho hình ảnh -->
+      <div class="photo-placeholder">[ Insert Image: Chí Hòa Church / Historical Site ]</div>
+
+      <h3>Visitor Features & Amenities:</h3>
+      <ul class="amenities-list">
+        <li><strong>Historical Guided Tours:</strong> Walk through quiet grounds while learning about the architectural evolution of mid-20th-century Saigon.</li>
+        <li><strong>Quiet Contemplation Spaces:</strong> Peaceful courtyards surrounded by lush trees, offering a stark, tranquil contrast to the urban bustle outside.</li>
+        <li><strong>Educational Signage:</strong> Informative plaques in English and Vietnamese detailing local resistance movements and urban development.</li>
+      </ul>
+    </div>
+
+    <!-- SECTION 3: NIGHT MARKETS & CULINARY DELIGHTS -->
+    <div class="section-card">
+      <span class="badge">Body 2 Feature: Local Life</span>
+      <h2>3. Hồ Thị Kỷ Flower & Street Food Market</h2>
+      <p><strong>Historical Context:</strong> A vibrant testament to the district's modern evolution, this night market blends floral trade with multicultural street food traditions.</p>
+
+      <!-- Placeholder cho hình ảnh -->
+      <div class="photo-placeholder">[ Insert Image: Hồ Thị Kỷ Flower Market at Night ]</div>
+
+      <h3>Visitor Features & Amenities:</h3>
+      <ul class="amenities-list">
+        <li><strong>Sensory Floral Walk:</strong> Stroll through thousands of illuminated, fresh blossoms sourced daily from Da Lat and the Mekong Delta.</li>
+        <li><strong>Culinary Craftsmanship:</strong> Savor roasted delicacies, Cambodian-influenced snacks, and authentic Chinese-Vietnamese desserts prepared right before your eyes.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Integrated English Travelog Project — District 10 Exploration Guide</p></footer>
+
+</body>
+</html>
